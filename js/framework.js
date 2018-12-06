@@ -4,7 +4,7 @@
 global.api = {};
 api.fs = require('fs');
 api.vm = require('vm');
-api.sandboxedFs = require('sandboxed-fs');
+api.sandboxedFs = require('../node_modules/sandboxed-fs');
 
 const { cloneInterface, wrapFunction } = require('./wrapper');
 
