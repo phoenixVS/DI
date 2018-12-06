@@ -1,0 +1,19 @@
+{
+  "name": "dependency-injection",
+  "version": "1.0.0",
+  "description": "Realization of DI on Node.js",
+  "main": "framework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DI",
+    "IOC",
+    "Node.js"
+  ],
+  "author": "Valentyn Shapoval",
+  "license": "MIT",
+  "dependencies": {
+    "sandboxed-fs": "^0.3.2"
+  }
+}
